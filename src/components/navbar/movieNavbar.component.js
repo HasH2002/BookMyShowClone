@@ -56,7 +56,7 @@ const NavLg = () => {
 const MovieNavbar = () => {
   return (
     <>
-      <nav className="bg-white  px-4 py-2.5">
+      <nav className="bg-white lg:bg-navCol-700  px-4 py-2.5">
         {/* mobile screen */}
         <div className="md:hidden">{<NavSm />}</div>
         {/* tablet screen */}
